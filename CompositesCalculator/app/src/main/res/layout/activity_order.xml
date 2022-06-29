@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity">
+
+
+    <Button
+    android:id="@+id/orderButtonE"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/orderTextView"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_gravity="center_vertical"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="122dp"
+    android:layout_marginEnd="16dp"
+    android:onClick="onOnlineOrder"
+    android:padding="16dp"
+    android:text="Order from Envision Composites" />
+
+    <Button
+    android:id="@+id/orderButtonEZ"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/orderTextView"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_gravity= "center"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="200dp"
+    android:layout_marginEnd="16dp"
+    android:onClick="onOnlineOrder2"
+    android:padding="16dp"
+    android:text="Order from Easy Composites"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/orderButtonF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity= "center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="onOnlineOrder3"
+        android:padding="16dp"
+        android:text="Order from FiberGlast"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/orderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="16dp"
+        android:text="Order Supplies"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

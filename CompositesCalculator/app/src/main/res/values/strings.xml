@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Composites Calculator</string>
+
+    <string-array name="Fabrics">
+        <item>2x2 3k Twill</item>
+        <item>1x1 1k Twill</item>
+        <item>2x2 6k Twill</item>
+        <item>Uni 12k UD</item>
+        <item>Uni 6k Bi-Directional</item>
+        <item>Quad 48k Multi-Axial</item>
+        <item>1/2oz Chop Strand </item>
+        <item>5H S-Glass</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
